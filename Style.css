@@ -21,7 +21,7 @@ ul{
     padding-right: 20px;
     position:fixed;
     z-index: 1;
-    min-width: 1850px;
+    width: 97%;
 }
 
 
@@ -293,7 +293,15 @@ div.uparrow {
 
   .socials{
     display:flex;
-    gap: 60px;
     cursor: pointer;
-    
   }
+
+  .socialbtn:hover{
+    transform: scale(1.1);
+  }
+
+  .socialbtn{
+    transition: all 0.5s ease;
+    margin: 10px;
+  }
+
