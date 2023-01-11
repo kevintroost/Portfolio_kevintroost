@@ -385,3 +385,20 @@ div.uparrow {
     margin: 10px;
   }
 
+  .buttongame{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 30px;
+    background-color: #131316;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.sectioneldenring{
+display: flex;
+
+}
