@@ -6,7 +6,7 @@
     <meta name="viewport">
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" type="image/x-icon" href="pictures/capyabara.png" width="16" height="16">
-    <script defer src="Main.js"></script>
+    <script defer src="index.js"></script>
 
     <title>Kevin troost</title>
 </head>
@@ -14,11 +14,7 @@
 <body>
     <header>
         <nav id="section5">
-            <ul>
-                <img class="arkev" src="pictures/THElogo.png" onclick="window.location.href='index.html'" width="100"
-                    height="35">
-                <a class="cta" href="searchcontact.html"><button>Contact</button></a>
-            </ul>
+           <?php include 'nav.php'; ?> 
 
         </nav>
     </header>
